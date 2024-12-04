@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+  color: #333;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Шапка */
+header {
+  background: rgba(50, 50, 50, 0.8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navbar li a:hover {
+  background: #555;
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo{
+    font-family:times new roman;
+    margin: 0;
+    font-size: 282%;
+    font-weight:bold;
+    color:white;
+    padding:10px;
+    font-style:italic;
+    text-decoration:italic;
+}
+
+.contact-section {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+.contact-section h2{
+                   font-family:times new roman;
+                   font-size:35px;
+                   font-style:italic;
+                   display: flex;
+                   flex-direction:row;
+                   justify-content:center;
+                   padding:10px;
+                   color:white;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-block1 h3,p{
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    font-family:times new roman;
+    font-size:20px;
+    color:white;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-block1 a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+footer {
+  padding: 20px 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
